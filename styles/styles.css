@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    font-family: 'Gilroy-Bold';
+}
+
+/* Пытался импортировать шрифт, но в гугл fonts не было */
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 4759px;
+    left: 0px;
+    top: 0px;
+
+background: #FFFFFF;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+}
+
+.container {
+    width: 946px;
+    max-width: 75%;
+    height: 100px;
+    margin: 0 auto;
+}   
+
+.header__inner {
+    justify-content: space-between;
+    
+    border-bottom: 1px solid #515369;
+    
+    padding: 35px 0;
+}
+
+.nav__link {
+    margin-left: 150px;
+    color: black;
+    text-decoration: none;
+    opacity: 0.75;
+    justify-content: space-between;
+
+    transition: opacity .1s linear;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link a {
+    font-family: 'Gilroy Bold';
+    font-weight: 700;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+    font-weight: 700;
+}
+
+.nav__link:hover {
+    opacity: 1;
+}
+
+.text {
+    width: 100vw;
+    height: 680px;
+    position:absolute;
+    top: 90px;
+}
+
+.text__container {
+    width: 946px;
+    height: 680px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text__inner {
+    width: 946px;
+    height: 560px;
+    position: absolute;
+}
+
+.text__title {
+    position: absolute;
+    left: 0;
+    right: 74.08%;
+    top: 2.69%;
+    bottom: 94.82%;
+
+    font-size: 24px;
+    line-height: 59px;
+    font-family: 'Gilroy Bold';
+    font-weight: 700;
+}
+
+.text__text-middle {
+    position: absolute;
+    left: 43.84%;
+    top: 13%;
+
+    font-family: 'Gilroy Bold';
+    font-weight: 400;
+    width: 150px;
+    font-size: 18px;
+    line-height:22px;
+    color: #070707;
+}
+
+.text__lang-sltr {
+    position: absolute;
+    right: -3%;
+    top: 13%;
+    
+    font-family: 'Gilroy Bold';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #828282;
+
+    transform: rotate(-90deg);
+}
+
+.text__lang-sltr:first-child {
+    font-weight: 400;
+}
+
+.img {
+    position: absolute;
+    width: 943.61px;
+    height: 387px;
+    left: 0;
+    bottom: 0%;
+
+}
+
+.about {
+    width: 100vw;
+    height: 506px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 706px;
+    background-color: #F6F6F6;
+}
+
+.about__container {
+    width: 485px;
+    height: 506px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__inner {
+    width: 485px;
+    height: 506px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.about__title {
+    width: 155px;
+    height: 43px;
+    position: absolute;
+    top: 18%;
+    bottom: 80.43%;
+
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.about__content {
+    position: absolute;
+    width: 485.34px;
+    height: 218px;
+    top: 181px;
+    
+    
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #070707;
+}
+
+.skills {
+    width: 100vw;
+    height: 610px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 1273px;
+}
+
+.skills__container {
+    width: 935px;
+    height: 610px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.skills__inner {
+    width: 935px;
+    height: 610px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.skills__title {
+    position: absolute;
+    top: 91px;
+    
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.skills__text {
+    position: absolute;
+    top: 160px;
+
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+.skills__ps {
+    position: absolute;
+    width: 166px;
+    height: 206px;
+    bottom: 111px;
+    left: 0;
+}
+
+.skills__ai {
+    position: absolute;
+    width: 166px;
+    height: 206px;
+    bottom: 111px;
+    left: 256px;
+}
+
+.skills__figma {
+    position: absolute;
+    width: 166px;
+    height: 206px;
+    bottom: 111px;
+    right: 0;
+}
+
+.skills__ae {
+    position: absolute;
+    width: 166px;
+    height: 206px;
+    bottom: 111px;
+    right: 256px;
+}
+
+.portfolio {
+    width: 100vw;
+    height: 2253px;
+    position: absolute;
+    top: 1884px;
+
+    background: #F6F6F6;
+}
+
+.portfolio__container {
+    width: 946px;
+    height: 2253px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio__inner {
+    width: 936px;
+    height: 2253px;
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.portfolio__title {
+    position: absolute;
+    left: 403px;
+    top: 113px;
+
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.portfolio__pic-first {
+    position: absolute;
+    width: 936.24px;
+    height: 510px;
+    top: 203px;
+}
+
+.portfolio__link-first {
+    position: absolute;
+    top: 758px;
+    left: 336px;
+    
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #070707;
+}
+
+.portfolio__pic-sec {
+    position: absolute;
+    width: 936.24px;
+    height: 510px;
+    top: 879px;
+}
+
+.portfolio__link-sec {
+    position: absolute;
+    top: 1446px;
+    left: 374px;
+    
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #070707;
+}
+
+.portfolio__pic-third {
+    position: absolute;
+    width: 936.24px;
+    height: 510px;
+    top: 1567px;
+}
+
+.portfolio__link-third {
+    position: absolute;
+    top: 2134px;
+    left: 342px;
+    
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #070707; 
+}
+
+.links {
+    width: 100vw;
+    height: 622px;
+    position: absolute;
+    bottom: 0;
+}
+
+.links__container {
+    width: 445px;
+    height: 622px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.links__inner {
+    width: 445px;
+    height: 622px;
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.links__title {
+    position: absolute;
+    top: 114px;
+
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.links__text {
+    position: absolute;
+    top: 177px;
+
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #070707;
+}
+
+.links__send-block {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.links__send-msg {
+    position: absolute;
+    top: 264px;
+    height: 36px;
+    width: 170px;
+    
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    background: black;
+
+    border-radius: 50px;
+    
+    color: #FFFFFF;
+}
+
+.skills__icon-links {
+    position: absolute;
+    top: 378px;
+}
+
+.links__text-last {
+    position: absolute;
+    top: 464px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #828282;
+}
